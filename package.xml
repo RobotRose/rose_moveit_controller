@@ -1,0 +1,40 @@
+<package>
+  <name>rose_moveit_controller</name>
+  <version>0.0.1</version>
+  <description>The Rose MoveIt! controller</description>
+
+  <license>BSD</license>
+
+  <maintainer email="d.bera@tue.nl">Debjyoti Bera</maintainer>
+  <maintainer email="langen@robot-rose.nl">Mathijs de Langen</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend> 
+  <build_depend>interactive_markers</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>message_runtime</build_depend>
+  <!-- <build_depend>moveit_core</build_depend> -->
+  <!-- <build_depend>moveit_ros_perception</build_depend> -->
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>roscpp</build_depend> 
+  <build_depend>sensor_msgs</build_depend> 
+  <build_depend>std_msgs</build_depend> 
+
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <run_depend>message_generation</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <!-- <run_depend>moveit_core</run_depend> -->
+  <!-- <run_depend>moveit_fake_controller_manager</run_depend> -->
+  <!-- <run_depend>moveit_ros_perception</run_depend> -->
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>pluginlib</run_depend>
+  <run_depend>roscpp</run_depend> 
+  <run_depend>sensor_msgs</run_depend> 
+  <run_depend>std_msgs</run_depend> 
+
+</package>

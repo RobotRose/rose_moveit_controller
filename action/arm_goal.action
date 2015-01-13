@@ -1,0 +1,18 @@
+#goal definition
+geometry_msgs/PoseStamped goal_pose
+float32 vx
+float32 vy
+float32 vz
+int32 control_mode
+int32 addObstacle
+int32 gripperState_
+float32 offset
+float32 limit
+int32 code
+int32 server_indication
+---
+#result definition
+float32 result
+---
+#feedback
+string feedback
