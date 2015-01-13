@@ -638,9 +638,9 @@ void executeCB(const rose_moveit_controller::arm_goalGoalConstPtr &goal)
 // Finally, the main..
 int main(int argc, char** argv)
 {
-  ros::init(argc, argv, "arm_controller_server");
+  ros::init(argc, argv, "rose_moveit_server");
 
-  arm_controller ac(ros::this_node::getName(),"jaco_arm");
+  arm_controller ac(ros::this_node::getName(),"jaco_arm_moveit_server");
   ros::spin();
 
   return 0;
