@@ -640,7 +640,7 @@ int main(int argc, char** argv)
 {
   ros::init(argc, argv, "rose_moveit_server");
 
-  arm_controller ac(ros::this_node::getName(),"jaco_arm_moveit_server");
+  arm_controller ac(ros::this_node::getName(),"jaco_arm");
   ros::spin();
 
   return 0;
